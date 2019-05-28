@@ -4,9 +4,8 @@
   @mixin atMedium {
     padding: 4.5rem 0;
   }
-
+  
   &--no-b-padding-until-medium {
-    
     padding-bottom: 0;
 
     @mixin atMedium {
@@ -35,4 +34,5 @@
       background-size: cover;
     }
   }
+
 }
